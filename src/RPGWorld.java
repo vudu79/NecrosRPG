@@ -21,14 +21,6 @@ public class RPGWorld {
     public RPGWorld(String name) {
         this.hero = new Hero(name, 1, 100);
         this.bosses = createBosses();
-
-//        GameUnit wwww = new Goblin("wwwwww", 1);
-//        wwww.setPawn(true);
-//        GameUnit qqqq = new Goblin("qqqqqq", 1);
-//        qqqq.setPawn(true);
-//        hero.addPawnToArmy(wwww);
-//        hero.addPawnToArmy(qqqq);
-
         this.locations = createLocations();
         this.dealer = createDealer();
         printAdvertising();
